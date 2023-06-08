@@ -2,40 +2,41 @@
 
 @section('content')
 
-<div class="container-fluid position-relative p-0">
-<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height: 50%;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" style="width: 50%;" src="img/playa.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="fw-bold text-primary text-uppercase mb-3 animated slideInDown">Grandes Ofertas de Verano</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Para que lo disfrutes con toda tu familia</h1>
+<<div class="container-fluid position-relative p-0">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height: 50%;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" style="width: 50%;" src="images/imagen1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h5 class="fw-bold text-dark text-uppercase mb-3 animated slideInDown">Grandes Ofertas</h5>
+                                <h1 class="display-1 text-white mb-md-4 animated zoomIn">Para que te lleves tus zapatos a mejor precio.</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="images/imagen2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h5 class="fw-bold text-primary text-uppercase mb-3 animated slideInDown">Los mejores zapatos de la zona</h5>
+                                <h1 class="display-1 text-white mb-md-4 animated zoomIn">La más alta calidad al mejor precio</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/cocina1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="fw-bold text-primary text-uppercase mb-3 animated slideInDown">Los mejores productos del Hogar</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">La más alta calidad al mejor precio</h1>    
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">siguiente</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">siguiente</span>
-            </button>
-        </div>
-</div>
+    </div>
+
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -46,12 +47,13 @@
                     <h1 class="mb-0">Nuestro compromiso contigo.</h1><br>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
                         <p class="mb-4 text-justify" style="margin-top:0px;">
-                            En "MyHouse" estamos dedicados a distribuir los mejores productos del mercado, siempre 
-                            con el mejor precio y una gran atención para nuestros clientes. Como empresa deseamos 
-                            que las familias salvadoreñas puedan tener un lugar en donde promocionar y obtener las 
-                            mejores ofertas del mercado, ya que el vínculo con nuestros clientes es muy importante 
-                            para nosotros, es por ello que como equipo nos comprometemos a ofrecerte: 
+                            CrunchyShoe siempre esta pendiente para cualquier zapato que necesites, desde uno tennis para
+                            correr, hasta unos zapatos deportivos de alta gamma, nuestro composimo no solo es vender zapatos, sino
+                            hacer que el cliente tenga lo mejores zapatos a calidad-precio y no necesite estar de tienda en tienda
+                            para encontrar sus zapatos deseados, porque aqui en CrunchyShoes tenemos todo tipo de zapatos.
+                            <br>Nosotros te ofrecemos lo siguiente:
                         </p>
+
                     </div>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
@@ -67,9 +69,9 @@
                     <a href="{{url('contacto')}}" class="btn btn-primary py-3 w-100 px-5 mt-3 wow zoomIn text-center" data-wow-delay="0.9s" style="color:white; font-weight: bold;">Contacta con nosotros</a>
                 </div>
             </div>
-            <div class="col-lg-5" style="min-height: 500px;">
+            <div class="col-lg-5" style="min-height: 300px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/header.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="images/crunchylogo.png" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -137,7 +139,7 @@
         background-size: cover;
         z-index: -1;
     }
-    
+
     .bg-offer {
         background: linear-gradient(rgba(17, 57, 117, 0.7), rgba(18, 130, 145, 0.5)), url(../img/sala2.jpg) center center no-repeat;
         background-size: cover;
@@ -147,5 +149,5 @@
 @endsection
 
 @section('footer')
-    @include('footer')
+    @include('home')
 @endsection
